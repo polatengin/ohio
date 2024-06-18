@@ -75,6 +75,8 @@ static int __init spg_init(void)
 }
 ```
 
+> List of all major numbers can be found on [Linux allocated devices](https://www.kernel.org/doc/html/latest/admin-guide/devices.html) page.
+
 When the driver is removed, the device is unregistered and the allocated memory is freed.
 
 ```c
